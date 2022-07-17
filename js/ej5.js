@@ -1,6 +1,7 @@
 let dni = parseInt(prompt("Ingrese su numero de documento"));
 let resultado = dni % 23;
 
+
 switch (resultado) {
   case 0:
     document.write("Su letra asignada es T");
@@ -72,5 +73,7 @@ switch (resultado) {
     document.write("Su letra asignada es E");
     break;
     default:
-        document.write("No tiene letra asignada")
+        alert("No tiene letra asignada");
+
+        confirm("¿Desea escribir un nuevo DNI?");
 }
