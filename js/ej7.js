@@ -8,4 +8,4 @@ if(numero > 1 && numero<=50){
         }
         document.write("<br>")
     }
-}else(alert("Introduzca un numero menor a 50"))
+}else(alert("Introduzca un numero mayor a 1 y menor a 50"))
