@@ -1,8 +1,21 @@
-let nombres1 =  parseInt(prompt("Introduce tu edad"));
-let nombres2 =  parseInt(prompt("Introduce tu edad"));
-let nombres3 =  parseInt(prompt("Introduce tu edad"));
+let nombre1 = prompt("Nombre 1:");
+let edad1 = Number(prompt("Edad 1:"));
 
+let nombre2 = prompt("Nombre 2:");
+let edad2 = Number(prompt("Edad 2:"));
 
-let mayor = Math.max(nombres1,nombres2,nombres3);
+let nombre3 = prompt("Nombre 3:");
+let edad3 = Number(prompt("Edad 3:"));
 
-document.write("El mayor es "+ mayor);
+    
+let maximo = Math.max(edad1, edad2, edad3);
+
+ if (maximo == edad1) {
+        document.write("El mayor es: " + nombre1);
+    }
+    if (maximo == edad2) {
+        document.write("El mayor es: " + nombre2);
+    }
+    if (maximo == edad3) {
+        document.write("El mayor es: " + nombre3);
+    }

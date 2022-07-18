@@ -1,6 +1,6 @@
 let i = 0;
 
-for (i = 0; i <= 500; i++) {
+for (i = 1; i <= 500; i++) {
   if (i % 5 === 0) {
     document.write("---------" + "<br>");
   }
