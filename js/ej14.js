@@ -1,4 +1,4 @@
-let cadena = prompt("Introduce una cadena de texto:");
+let cadena = prompt("Introduce un  texto:");
 let caracteres = cadena.length;
 let caracter;
 let i=0;
